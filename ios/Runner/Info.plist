@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ... other existing entries ... -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>remote-notification</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs camera access to scan QR codes</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs photos access to get QR code from photo library</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs microphone access for voice commands</string>
+</dict>
+</plist>
